@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#fff;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:48px;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    margin:40px auto;
+}
+
+.container p{
+    font-size:24px;
+    margin-bottom:30px;
+    line-height:1.5;
+}
+
+#band{
+    margin-left:40px;
+}
+
+#band li{
+    font-size:22px;
+    margin:14px 0;
+}
